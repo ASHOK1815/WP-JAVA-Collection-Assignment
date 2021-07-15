@@ -1,3 +1,5 @@
+package SaveEvenNumbers;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,15 +8,15 @@ public class SaveEvenNumber {
 
     public static  ArrayList<Integer> SaveEvenNumbers(int N)
     {
-          ArrayList<Integer> arrayList=new ArrayList<>();
+        ArrayList<Integer> arrayList=new ArrayList<>();
 
-          for(int i=2;i<=N;i++)
-          {
-              if(i%2==0)
-              {
-                  arrayList.add(i);
-              }
-          }
+        for(int i=2;i<=N;i++)
+        {
+            if(i%2==0)
+            {
+                arrayList.add(i);
+            }
+        }
         return arrayList;
     }
 
@@ -35,15 +37,15 @@ public class SaveEvenNumber {
     public static int printEvenNumber(int N,ArrayList<Integer> arrayList)
     {
 
-         for(int i=0;i<arrayList.size();i++)
-         {
-             if(arrayList.get(i).equals(N))
-             {
-                 return N;
-             }
-         }
+        for(int i=0;i<arrayList.size();i++)
+        {
+            if(arrayList.get(i).equals(N))
+            {
+                return N;
+            }
+        }
 
-         return 0;
+        return 0;
 
     }
 
