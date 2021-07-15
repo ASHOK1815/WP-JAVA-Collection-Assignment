@@ -20,7 +20,10 @@ public class MainTest {
             System.out.println();
         }
 
+        employeeDB.deleteEmployee(6705);
 
+
+        System.out.println(employeeDB.showPaySlip(6735));
 
 
 
