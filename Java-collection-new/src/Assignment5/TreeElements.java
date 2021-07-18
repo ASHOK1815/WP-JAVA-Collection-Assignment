@@ -1,5 +1,7 @@
 package Assignment5;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.TreeSet;
 
@@ -7,10 +9,12 @@ public class TreeElements {
 
     public  static void main(String[] args)
     {
-        TreeSet<String> name =new TreeSet<>();
+        TreeSet<String> name =new TreeSet<>(Collections.reverseOrder());
         name.add("ASHOK");
         name.add("SUNIL");
         name.add("KUMAR");
+
+
 
         String query="ASHOK";
 
