@@ -58,7 +58,7 @@ public class ExceptionHandleInArray {
         }
         catch (ArrayIndexOutOfBoundsException e)
         {
-            System.out.println("Array out of index Exception generated");
+            System.out.println(e.getClass());
         }
 
 
