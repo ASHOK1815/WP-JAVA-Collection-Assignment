@@ -1,3 +1,3 @@
 # WP-JAVA-Collection-Assignment
 
-(assets/wipro.png)
+!["Wipro training program"](assets/wipro.png)
