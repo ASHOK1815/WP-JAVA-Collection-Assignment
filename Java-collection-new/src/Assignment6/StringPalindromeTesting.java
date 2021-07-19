@@ -11,8 +11,9 @@ public class StringPalindromeTesting {
     @Test
     public void testingPalindrome() {
 
-       // assertEquals(true,StringPalindrome.isPalindrome("ASHOK"));
+
         assertEquals(true,StringPalindrome.isPalindrome("NAMAN"));
+        //assertEquals(true,StringPalindrome.isPalindrome("ASHOK"));
 
     }
 }
